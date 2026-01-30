@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: botnavegador
+Version: 1.0
+Summary: Python package for a BotCity bot.
+Description-Content-Type: text/markdown
+Requires-Dist: botcity-framework-web<2.0,>=1.0
+Requires-Dist: botcity-maestro-sdk<1.0,>=0.5.1
+
+# botnavegador
+
+Python package for a BotCity bot.
+
+## WARNING
+
+You are using an outdated version of the template which is no longer recommended.
+
+While this template works and is valid, it is strongly recommended to create a new project with the latest template version.
+
+Please refer to our [documentation page](https://documentation.botcity.dev/tutorials/python-automations/desktop/).

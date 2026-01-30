@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+VERSION
+requirements.txt
+setup.py
+botnavegador/__init__.py
+botnavegador/__main__.py
+botnavegador/bot.py
+botnavegador.egg-info/PKG-INFO
+botnavegador.egg-info/SOURCES.txt
+botnavegador.egg-info/dependency_links.txt
+botnavegador.egg-info/requires.txt
+botnavegador.egg-info/top_level.txt
+botnavegador/resources/start.png
