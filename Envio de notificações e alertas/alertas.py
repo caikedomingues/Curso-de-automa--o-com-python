@@ -94,19 +94,30 @@ def enviar_email(cotacao):
     # Ira definir o destinatário
     msg['To'] = f"{EMAIL}"
     
-    # Ira
+    # Ira conter a senha de app do email que enviara os dados
     password = f"{SENHA}"  
     
+    # ira definir o cabeçalho do email em HTML 
     msg.add_header('Content-Type', 'text/html')
     
+    # Ira na mensagem o corpo do email
     msg.set_payload(corpo_email)
     
+    # Ira acessar o servidor de email do gmail que envia mensagens, ou seja, ele estabelece uma conexão com o protocolo de saida de e-mails,
+    # dessa forma ele abre a comunicação com o servidor do Google.
     s = smtplib.SMTP('smtp.gmail.com: 587')
     
+    # Cria um canal de tls, que é um canal seguro para envio de dados
+    # sensiveis como a senha de login do email
     s.starttls()
     
+    # Ira realizar o login no email que enviará as mensagens. A função
+    # ira receber como argumento o endereço e a senha do email.
     s.login(msg['From'], password)
     
+    # Ira enviar as mensagens codificando o conteudo em formato de 
+    # string no padrão utf-8. A função recebe como argumento o
+    # email to remetente e o email do destinatário. 
     s.sendmail(msg['From'], [msg['To']], msg.as_string().encode('utf-8'))
     
     print("Email enviado com sucesso!")
@@ -115,6 +126,9 @@ def enviar_email(cotacao):
 
 if cotacao < 5.30:
     
+    # Se a cotação do dolar for menor que 5.30, vamos chamar
+    # a função de envio de email com o valor da cotação sendo
+    # passado como argumento.
     enviar_email(cotacao)
     
     
