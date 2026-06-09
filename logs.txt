@@ -1,0 +1,5 @@
+10.1007/978-3-319-93846-2_82: Sucesso - arquivo: C:/Users/caike/Documents/Curso-de-automa--o-com-python/Economizando 15 horas de trabalho/papers\978-3-319-93846-2_82 (1).pdf
+10.1111/coin.12458: Sucesso - arquivo: C:/Users/caike/Documents/Curso-de-automa--o-com-python/Economizando 15 horas de trabalho/papers\coin.12458.pdf
+10.1145/3481056.3481096: erro
+10.1007/s10796-014-9488-3: Sucesso - arquivo: C:/Users/caike/Documents/Curso-de-automa--o-com-python/Economizando 15 horas de trabalho/papers\s10796-014-9488-3.pdf
+10.1007/s40888-018-00137-1: Sucesso - arquivo: C:/Users/caike/Documents/Curso-de-automa--o-com-python/Economizando 15 horas de trabalho/papers\s40888-018-00137-1.pdf
